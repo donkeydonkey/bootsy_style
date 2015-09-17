@@ -11,4 +11,18 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background: image_url("goats.jpg") center;
+  h1 {
+    font-size: 1em;
+    font-weight: 200;
+  }
+}
+
+.main-container {
+  h1 {
+    font-size: 6em;
+    font-wieght: 900;
+  }
+  background:#ffdaff;
+  background-image:none;
+  padding: 2em;
 }
