@@ -7,7 +7,7 @@
 
 <p>
   <strong>Content:</strong>
-  <%= @page.content %>
+  <%= sanitize @page.content %>
 </p>
 
 <%= link_to 'Edit', edit_page_path(@page) %> |
